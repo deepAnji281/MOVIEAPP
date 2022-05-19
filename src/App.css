@@ -1,0 +1,103 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.navigation_bar{
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  position: relative;
+}
+.h31{
+  position: absolute;
+  left:15rem;
+  color: blue;
+  top:0.35rem;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+  color: blue;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+  
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  position: relative;
+
+}
+.banner_img{
+  height: 70vh;
+  width: 100%;;
+  
+}
+.banner_title{
+  position:absolute;
+  top:4rem;
+  left:7rem;
+  color:white;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.banner_text{
+  position: absolute;
+  bottom: 5rem;
+  color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:x-large;
+}
+.movieList{
+  
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:2rem;
+
+  position: relative;
+
+}
+
+.movie_img{
+  height: 45vh;
+  width:20vw;
+}
+.movie_title{
+  position: absolute;
+  top:2rem;
+  
+  color: white;
+  font-style: italic;
+}
+.movie_btn{
+  position: absolute;
+  bottom: 5rem;
+}
+.pagination{
+  margin-top:2rem;
+  display: flex;
+  justify-content: center;
+  color:blue;
+}
+.main-cont{
+  display: flex;
+  
+ 
+}
+.col-3{
+
+  margin-top:2rem;
+  margin-left: 2rem;
+}
+.col-9{
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.list-group-item{
+  width:17rem;
+}
+
+  
+ 
+  
